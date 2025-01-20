@@ -35,9 +35,6 @@ If you’re familiar with rofi you know the deal. Hit the keyboard shortcut
 (I use super+v), choose from the list, and then the snippet gets pasted
 into active window.
 
-Tempaste backsup/restores the clipboard on use (via a file in /tmp), so it
-shouldn’t* mess up your clipboard contents
-
 ## Maybe
 
 The if I get time list:
