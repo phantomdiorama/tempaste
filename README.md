@@ -41,5 +41,4 @@ The if I get time list:
 
 - multi-line snippets
 - support applications that don’t use ctrl+v for paste eg vim, terminals
-- Wayland
 
