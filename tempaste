@@ -1,16 +1,7 @@
 #!/usr/bin/env bash
 
-# save current clipboard
-xclip -sel clip -o >/tmp/old.tempaste
-
 # clear clipboard
 echo -n | xclip -sel clip
 
 # run rofi for snippet selection
-cat ~/.snippets | rofi -dmenu | sed 's/.*    \+//' | xclip -sel clip && xdotool key ctrl+v
-
-# clear clipboard
-echo -n | xclip -sel clip
-
-# restore clipboard
-cat /tmp/old.tempaste | xclip -sel clip
+cat ~/.snippets | rofi -dmenu | sed 's/.*    \+//' | xclip -sel clip

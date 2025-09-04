@@ -1,12 +1,12 @@
 # Tempaste
 
-A microscopic wrapper around rofi, xclip and xdotool to provide text snippets
+A microscopic wrapper around rofi and xclip for text snippets
 
 ![screennshot](tempaste.png)
 
 ## Install
 
-1. Install dependencies: `sudo apt install rofi xclip xdotool`
+1. Install dependencies: `sudo apt install rofi xclip`
 2. Drop the tempaste script into $PATH and make sure it’s executable
 
 ## Config
@@ -32,13 +32,11 @@ settings>keyboard>application shortcuts.
 ## Usage
 
 If you’re familiar with rofi you know the deal. Hit the keyboard shortcut
-(I use super+v), choose from the list, and then the snippet gets pasted
-into active window.
+(I use super+v), choose from the list, and then paste in the usual way (ctrl+v etc)
 
 ## Maybe
 
 The if I get time list:
 
 - multi-line snippets
-- support applications that don’t use ctrl+v for paste eg vim, terminals
 
